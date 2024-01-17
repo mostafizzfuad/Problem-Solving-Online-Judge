@@ -8,5 +8,4 @@ int main() {
 
     cout << "DIFERENCA = " << (a * b - c * d) << endl;
 
-    return 0;
 }

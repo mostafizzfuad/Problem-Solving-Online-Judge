@@ -8,5 +8,4 @@ int main() {
 
     cout << "PROD = " << a * b << endl;
 
-    return 0;
 }

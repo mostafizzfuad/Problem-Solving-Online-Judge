@@ -6,9 +6,8 @@ int main() {
     double r;
     cin >> r;
 
-    double a = 3.14159 * r * r;
+    double area = 3.14159 * r * r;
 
-    printf("A=%.4lf\n", a);
-
-    return 0;
+    cout << "A=" << fixed << setprecision(4) << area << endl;
+    
 }

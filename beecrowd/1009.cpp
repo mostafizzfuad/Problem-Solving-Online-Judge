@@ -3,12 +3,13 @@
 using namespace std;
 int main() {
 
-    string name;
-    double fixedSalary, soldValue;
-    cin >> name >> fixedSalary >> soldValue;
+    string sellerName;
+    double fixedSalary, amountOfTotalSell;
+    cin >> sellerName >> fixedSalary >> amountOfTotalSell;
 
-    double total = fixedSalary + (soldValue * 15) / 100;
+    double bonusSalary = amountOfTotalSell * 0.15;
+    double salary = fixedSalary + bonusSalary;
 
-    cout << "TOTAL = R$ " << fixed << setprecision(2) << total << endl;
-
+    cout << "TOTAL = R$ " << fixed << setprecision(2) << salary << endl;
+    
 }

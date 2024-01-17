@@ -6,10 +6,9 @@ int main() {
     double a, b;
     cin >> a >> b;
 
-    double sumOfWeights = 3.5 + 7.5;
-    double avg = ((a * 3.5) + (b * 7.5)) / sumOfWeights;
+    double sumOfWeight = 3.5 + 7.5;
+    double avg = ((a * 3.5) + (b * 7.5)) / sumOfWeight;
 
-    printf("MEDIA = %.5lf\n", avg);
-
-    return 0;
+    cout << "MEDIA = " << fixed << setprecision(5) << avg << endl;
+    
 }
