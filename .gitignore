@@ -1,3 +1,5 @@
-/.vscode/
+/.vscode
 /check.cpp
 /check.exe
+
+*.exe
