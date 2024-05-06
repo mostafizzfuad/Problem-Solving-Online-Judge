@@ -2,7 +2,7 @@
 // problem link : https://atcoder.jp/contests/abc235/tasks/abc235_a?lang=en
 #include <bits/stdc++.h>
 using namespace std;
-int main(){
+int main() {
 
     int num, a, b, c;
     cin >> num;
